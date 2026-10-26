@@ -8,12 +8,12 @@ Custom 3D quadcopter drone designed, modeled, and assembled in **SOLIDWORKS**. T
 
 ### Exploded Assembly & Kinematics
 <p align="center">
-  <img src="SolidWorks_Drone_Assembly_Animation.gif" alt="Quadcopter Exploded View Animation" width="750">
+  <img src="media/SolidWorks_Drone_Assembly_Animation.gif" alt="Quadcopter Exploded View Animation" width="750">
 </p>
 
 ### Assembled Isometric View
 <p align="center">
-  <img src="Drone_Full_Assembly_Isometric_View.png" alt="Quadcopter Fully Assembled View" width="750">
+  <img src="media/Drone_Full_Assembly_Isometric_View.png" alt="Quadcopter Fully Assembled View" width="750">
 </p>
 
 ---
