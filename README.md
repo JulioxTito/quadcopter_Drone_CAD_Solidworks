@@ -40,4 +40,11 @@ Custom 3D quadcopter drone designed, modeled, and assembled in **SOLIDWORKS**. T
 
 * **Software:** Dassault Systèmes SOLIDWORKS
 * **Techniques Used:** Parametric Part Modeling, Bottom-Up Assembly, Mechanical Mates, Interference Detection, Exploded View Animations, PhotoView 360 / Visualize Rendering.
-* **Deliverables:** High-resolution renders, exploded assembly animations, and exported neutral CAD formats (`.STEP`).
+* **Deliverables:** High-resolution renders, exploded assembly animations, and single combined assembly mesh export (`.STL`).
+
+---
+
+## 3D CAD Files
+
+* **Complete Assembly STL:** [`Final Project Drone.STL`](Final%20Project%20Drone.STL) *(Interactive 3D viewable directly on GitHub)*
+* **Visual Media:** High-resolution renders and kinematics are available in the [`media/`](media/) directory.
