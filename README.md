@@ -1,50 +1,43 @@
-# Custom Quadcopter CAD Assembly & Motion Analysis
+# Quadcopter Drone Mechanical CAD Assembly
 
-A comprehensive 3D parametric CAD model and assembly of a custom quadcopter drone developed in **SolidWorks**, focusing on structural packaging, component clearances, and mechanical assembly hierarchy.
-
----
-
-## Overview
-
-* **Tool:** SolidWorks 2026 (Design Standard)
-* **Design Focus:** Structural rigidity, electromechanical component packaging, and tolerance management for additive manufacturing / off-the-shelf hardware integration.
-* **Deliverables:** Parametric parts, top-level assemblies, drawing sheet projection readiness, and motion studies.
+Custom 3D quadcopter drone designed, modeled, and assembled in **SOLIDWORKS**. The design integrates truss-reinforced lightweight arms, vibration-isolated electronic mounts, and a multi-tier central chassis for avionics and power distribution.
 
 ---
 
-## Assembly Architecture & Subsystems
+## Visualizations
 
-1. **Airframe & Structural Chassis:**
-   - Central spider base chassis optimized for structural stiffness and torsional load resistance during flight dynamics.
-   - Modular arms designed with mounting interfaces for brushless DC motors.
-   - Fastener and spacer layout engineered for modular servicing and weight optimization.
+### Assembled Isometric View
+<p align="center">
+  <img src="media/Drone_Full_Assembly_Isometric_View.png" alt="Quadcopter Isometric View" width="750">
+</p>
 
-2. **Electromechanical Packaging:**
-   - Enclosed battery bay positioned along the center of gravity (CG).
-   - Dedicated power distribution board (PDB) and flight controller mounting planes.
-   - Integrated wire routing channels from speed controllers/distribution hubs directly to peripheral motors.
-
-3. **Motion Study & Mechanical Coordination:**
-   - Evaluated assembly mating constraints (concentric, coincident, parallel, distance) to verify zero part interference.
-   - Executed dynamic camera orientation, component exploded views, and rotor rotation simulation.
+### Exploded View & Kinematic Assembly
+<p align="center">
+  <img src="media/Drone_Exploded_Assembly_Spin.gif" alt="Quadcopter Exploded View" width="750">
+</p>
 
 ---
 
-## Visuals
+## Subsystems & Architecture
 
-### Full Isometric Assembly
-![Drone Full Assembly](Drone_Full_Assembly_Isometric_View.png)
+* **Structural Airframe:**
+  * Modular multi-plate central chassis housing the flight controller stack and power distribution.
+  * Webbed truss motor arms optimized for high torsional stiffness while minimizing overall airframe weight.
+  * Fastened standoffs and hardware interface points providing clearance for wire routing.
 
-### Structural & Electronics Packaging
-![Frame & Electronics Integration](Drone_Frame_and_Electronics_Integration.png)
+* **Propulsion & Actuation:**
+  * 4x Brushless DC outrunner motors with threaded collet prop adapters.
+  * Matched dual-blade aerodynamic propellers.
+  * Individual arm-mounted Electronic Speed Controller (ESC) bays with direct motor lead routing.
 
-### Exploded Subassembly View
-![Exploded View](Drone_Subassembly_Exploded_Details.png)
+* **Avionics & Power Integration:**
+  * Top-mounted modular battery tray designed for LiPo balance and center-of-gravity (CG) stability.
+  * Central internal bay for flight controller board mounting, receiver, and sensor routing.
 
 ---
 
-## Key Skills Demonstrated
+## CAD Modeling Details
 
-- **3D Parametric Modeling:** Top-down and bottom-up assembly workflows, sketch constraints, and feature tree organization.
-- **Interference & Clearance Verification:** Collision detection between moving blades, frame uprights, and internal electronics.
-- **Drafting & Standards:** Standard orthographic views (top, front, side), sectioning, GD&T, and Bill of Materials (BOM) structuring.
+* **Software:** Dassault Systèmes SOLIDWORKS
+* **Techniques Used:** Parametric Part Modeling, Bottom-Up Assembly, Mechanical Mates, Interference Detection, Exploded View Animations, PhotoView 360 / Visualize Rendering.
+* **Deliverables:** High-resolution renders, exploded assembly animations, and exported neutral CAD formats (`.STEP`).
