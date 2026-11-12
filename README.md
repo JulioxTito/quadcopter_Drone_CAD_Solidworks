@@ -15,6 +15,10 @@ Custom 3D quadcopter drone designed, modeled, and assembled in **SOLIDWORKS**. T
 <p align="center">
   <img src="media/Drone_Full_Assembly_Isometric_View.png" alt="Quadcopter Fully Assembled View" width="750">
 </p>
+### Engineering Drawing & Bill of Materials (BOM)
+<p align="center">
+  <img src="media/Drone_Engineering_Drawing_BOM.png" alt="Quadcopter Engineering Drawing and BOM" width="750">
+</p>
 
 ---
 
